@@ -1,0 +1,29 @@
+/*---fonts---*/
+@font-face {
+  font-family: SpeedPhreak;
+  src: url("../vendor/fonts/SpeedPhreakGradientItalic.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+/*---components---*/
+@import url('../components/components.css');
+
+/*---pages---*/
+@import url('./auth/auth.css');
+@import url('./registration/registration.css');
+@import url('./chat/chat.css');
+@import url('./settings/settings.css');
+@import url('./404/404.css');
+
+/*---main styles---*/
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #161212;
+  width: 100%;
+  height: 100vh;
+}

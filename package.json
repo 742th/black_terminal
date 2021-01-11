@@ -2,12 +2,14 @@
   "name": "black_terminal",
   "version": "1.0.0",
   "description": "study project",
-  "main": "main.js",
+  "server": "server.js",
   "dependencies": {},
   "devDependencies": {
     "express": "^4.17.1"
   },
-  "scripts": {},
+  "scripts": {
+    "static": "node ./server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/742th/black_terminal.git"
