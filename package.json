@@ -1,0 +1,23 @@
+{
+  "name": "black_terminal",
+  "version": "1.0.0",
+  "description": "study project",
+  "server": "server.js",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "static": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/742th/black_terminal.git"
+  },
+  "author": "Alexandr Stepanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/742th/black_terminal/issues"
+  },
+  "homepage": "https://github.com/742th/black_terminal#readme"
+}
