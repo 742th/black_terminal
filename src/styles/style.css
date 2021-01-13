@@ -48,6 +48,7 @@ body {
 }
 
 .header {
+  position: relative;
   max-width: 1120px;
   width: 100%;
   display: flex;
