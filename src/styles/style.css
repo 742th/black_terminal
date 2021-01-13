@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 body {
   background-color: #161212;
-  height: 100vh;
+  min-width: 320px;
 }
 
 .container {
