@@ -25,6 +25,12 @@
   outline: none;
 }
 
+input,
+button {
+  border: none;
+  background: transparent;
+}
+
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
@@ -61,7 +67,14 @@ body {
   border: none;
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 1000px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 660px) {
   .container {
     padding: 0 4px;
   }
