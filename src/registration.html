@@ -5,7 +5,7 @@
 	<meta name="viewport"
 		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>black terminal</title>
+	<title>Registration</title>
 	<link rel="stylesheet" href="./styles/style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600&display=swap"
@@ -61,74 +61,43 @@
 			</defs>
 		</svg>
 	</button>
-
-	<div class="profile">
-		<div class="profile__wrap neon-line">
-			<div class="profile-top">
-				<img src="" alt="" class="profile-top__avatar">
-				<h3 class="profile-top__name neon-text">al</h3>
-			</div>
-			<ul class="profile__info">
-				<li class="profile__item">
-					<p class="profile__label neon-text">mail</p>
-					<p class="profile__text">keklol@kek.lol</p>
-				</li>
-				<li class="profile__item">
-					<p class="profile__label neon-text">login</p>
-					<p class="profile__text">tu-thunder</p>
-				</li>
-				<li class="profile__item">
-					<p class="profile__label neon-text">name</p>
-					<p class="profile__text">al</p>
-				</li>
-				<li class="profile__item">
-					<p class="profile__label neon-text">surname</p>
-					<p class="profile__text">st</p>
-				</li>
-				<li class="profile__item">
-					<p class="profile__label neon-text">nickname</p>
-					<p class="profile__text">troll69420</p>
-				</li>
-				<li class="profile__item">
-					<p class="profile__label neon-text">telephone</p>
-					<p class="profile__text">+7(999)-999-99-99</p>
-				</li>
-			</ul>
-			<div class="profile-bottom">
-				<button class="profile-bottom__button neon-button">
-					<span class="neon-text">exit</span>
-				</button>
-				<div class="profile-bottom__wrap">
-					<button class="neon-button">
-						<span class="neon-text">change data</span>
-					</button>
-					<button class="neon-button">
-						<span class="neon-text">change pass</span>
-					</button>
-				</div>
-			</div>
-		</div>
-	</div>
 </header>
-<main class="page">
+<main class="reg">
 	<div class="container">
-		<form name="auth" class="page-form neon-line">
-			<div class="page-form__item">
-				<label class="page-form__label neon-text">login</label>
-				<input name="login" type="text" class="page-form__input neon-input">
-			</div>
-			<div class="page-form__item">
-				<label class="page-form__label neon-text">password</label>
-				<input name="password"  type="password" class="page-form__input neon-input">
-			</div>
+		<div class="reg__cont neon-line">
+			<h1 class="reg__title neon-text">registration</h1>
+		</div>
 
-			<button class="page-form__button neon-button">
+		<form class="reg__form neon-line">
+			<div class="reg__form-item">
+				<label class="reg__form-label neon-text">name</label>
+				<input type="text" name="name" class="reg__form-input neon-input">
+			</div>
+			<div class="reg__form-item">
+				<label class="reg__form-label neon-text">surname</label>
+				<input type="text" name="surname" class="reg__form-input neon-input">
+			</div>
+			<div class="reg__form-item">
+				<label class="reg__form-label neon-text">email</label>
+				<input type="text" name="email" class="reg__form-input neon-input">
+			</div>
+			<div class="reg__form-item">
+				<label class="reg__form-label neon-text">login</label>
+				<input type="text" name="login" class="reg__form-input neon-input">
+			</div>
+			<div class="reg__form-item">
+				<label class="reg__form-label neon-text">password</label>
+				<input type="password" name="password" class="reg__form-input neon-input">
+			</div>
+			<div class="reg__form-item">
+				<label  class="reg__form-label neon-text">phone</label>
+				<input type="text" name="phone" class="reg__form-input neon-input">
+			</div>
+			<button class="reg__form-btn neon-button">
 				<span class="neon-text">enter</span>
 			</button>
 		</form>
 	</div>
-
 </main>
-<script src="scripts/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,87 @@
+.profile {
+  width: 300px;
+  position: absolute;
+  right: 100px;
+  bottom: -380px;
+  z-index: 2;
+}
+
+.profile__wrap {
+  background: #013333;
+  padding: 20px;
+  border-radius: 37px 0;
+}
+
+.profile__wrap:before {
+  border-radius: 37px 0;
+}
+
+.profile-top {
+  display: flex;
+}
+
+.profile-top__avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin: 0 15px 0 0;
+}
+
+.profile__info {
+  padding: 0;
+}
+
+.profile__item {
+  margin: 0 0 10px 0;
+  padding: 0 5px 0 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #F121F5;
+}
+
+.profile__text {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  color: #B8B8B8;
+}
+
+.profile__label {
+  font-size: 14px;
+  line-height: 13px;
+  width: 50%;
+}
+
+.profile-bottom {
+  display: flex;
+  margin: 40px 0 0;
+  justify-content: space-between;
+  padding: 0 15px 10px;
+}
+
+.profile-bottom__button {
+  display: flex;
+  align-items: center;
+  margin: 0 20px 0 0;
+  font-size: 24px;
+  line-height: 22px;
+  padding: 5px;
+}
+
+.profile-bottom__wrap > .neon-button {
+  font-size: 14px;
+  line-height: 14px;
+  padding: 7px;
+}
+.profile-bottom__wrap > .neon-button:first-of-type {
+  margin: 0 0 15px;
+}
+
+@media screen and (max-width: 660px) {
+  .profile {
+    right: 15px;
+    bottom: -402px;
+  }
+}

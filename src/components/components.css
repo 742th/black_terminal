@@ -17,6 +17,7 @@
   border-radius: 202px 0;
   background: #161212;
   box-shadow: inset 0px 0px 15px 10px rgba(241, 33, 245, 0.36);
+  transition: all linear .5s;
 }
 .neon-line:before {
   content: "";
@@ -29,6 +30,7 @@
   box-shadow: 0px 0px 15px 10px rgba(241, 33, 245, 0.36);
   background: linear-gradient(180deg, #F121F5 0%, rgba(229, 44, 245, 0.981793) 20.1%, rgba(20, 232, 232, 0.66) 83.65%);
   border-radius: 202px 0;
+  transition: all linear .5s;
 }
 
 /*---INPUT---*/
@@ -40,6 +42,7 @@
   box-shadow: 0px 0px 15px 10px rgba(241, 33, 245, 0.36);
   color: #B8B8B8;
   font-family: Nunito Sans;
+
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
@@ -49,7 +52,7 @@
 }
 .neon-input:focus {
   transition: all linear .5s;
-  box-shadow: 2px 2px 25px 15px rgba(241, 33, 245, 0.36);
+  box-shadow: 2px 2px 35px 25px rgba(241, 33, 245, 0.36);
 }
 
 /*---BUTTON---*/
@@ -58,7 +61,7 @@
   padding: 15px;
   justify-content: center;
   border: none;
-  background:  rgba(103, 62, 120, 0.8);
+  background: rgba(103, 62, 120, 0.8);
   box-shadow: 0px 0px 15px 10px rgba(241, 33, 245, 0.36);
   border-radius: 27px 0px;
   transition: all linear .5s;
@@ -69,8 +72,24 @@
   box-shadow: 2px 2px 25px 15px rgba(241, 33, 245, 0.36);
 }
 
+/*---SCROLL---*/
+.neon-scroll::-webkit-scrollbar {
+  width: 4px;
+}
 
-@media screen and (max-width: 600px) {
+.neon-scroll::-webkit-scrollbar-track {
+  background-color: #F121F5;
+  box-shadow: 0px 0px 10px 1px #bbbaba;
+}
+
+.neon-scroll::-webkit-scrollbar-thumb {
+  background-color: #11a094;
+  width: 3px;
+  border-radius: 5px;
+}
+
+
+@media screen and (max-width: 660px) {
   .neon-line,
   .neon-line:before {
     border-radius: 130px 0;
