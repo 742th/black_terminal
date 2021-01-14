@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "study project",
   "server": "server.js",
+  "engine": {
+    "node": "v12.18.3"
+  },
   "dependencies": {},
   "devDependencies": {
     "express": "^4.17.1"
