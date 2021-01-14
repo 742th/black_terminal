@@ -1,0 +1,52 @@
+.page-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 65px 0 0;
+  padding: 70px;
+}
+
+.page-form__item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 50px;
+  min-width: 330px;
+}
+
+.page-form__label {
+  margin: 0 0 10px;
+  font-size: 36px;
+  line-height: 33px;
+}
+
+.page-form__input {
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+}
+
+.page-form__button {
+  min-width: 330px;
+  font-size: 36px;
+  line-height: 33px;
+}
+
+@media screen and (max-width: 600px) {
+
+  .page-form {
+    padding: 50px;
+  }
+
+  .page-form__label,
+  .page-form__button {
+    font-size: 24px;
+    line-height: 22px;
+  }
+
+  .page-form__item,
+  .page-form__button {
+    min-width: 213px;
+  }
+}

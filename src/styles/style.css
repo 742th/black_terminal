@@ -1,0 +1,92 @@
+
+/*---components---*/
+@import url('../components/components.css');
+
+/*---pages---*/
+@import url('./auth/auth.css');
+@import url('./registration/registration.css');
+@import url('./chat/chat.css');
+@import url('./settings/settings.css');
+@import url('./404/404.css');
+
+/*---fonts---*/
+@font-face {
+  font-family: SpeedPhreak;
+  src: url("../vendor/fonts/SpeedPhreakGradientItalic.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*---main styles---*/
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  outline: none;
+}
+
+input,
+button {
+  border: none;
+  background: transparent;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+body {
+  background-color: #161212;
+  min-width: 320px;
+}
+
+.container {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.header {
+  position: relative;
+  max-width: 1120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px 36px;
+  margin: 35px auto 0;
+  border-bottom: 1px solid #F121F5;
+}
+
+.header__title {
+  font-size: 36px;
+  line-height: 33px;
+}
+
+.header__button {
+  background: transparent;
+  border: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .container {
+    padding: 0 4px;
+  }
+
+  .header {
+    margin-top: 20px;
+    padding: 0 4px 20px;
+  }
+
+  .header__title {
+    font-size: 24px;
+    line-height: 22px;
+  }
+}
